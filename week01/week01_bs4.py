@@ -49,6 +49,6 @@ df = pd.DataFrame(movie_list)
 # for item in movie_list:
 #     print(item)
 
-df.to_csv(r'/Users/renpenghui/Desktop/week01_bs4.csv',encoding='utf_8_sig',index=False)
+df.to_csv('/Users/renpenghui/Python001-class01/week01/homework01.csv',encoding='utf_8_sig',index=False)
 print('完成')
 
